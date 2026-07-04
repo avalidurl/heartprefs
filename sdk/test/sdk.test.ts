@@ -71,7 +71,7 @@ describe("buildDoc", () => {
     const doc = freshDoc();
     expect(doc.kind).toBe("heartprefs");
     expect(doc.version).toBe("0.1.0");
-    expect(doc.$schema).toBe("https://w3id.org/heartprefs/0.1/schema.json");
+    expect(doc.$schema).toBe("https://raw.githubusercontent.com/gokhan-vc/heartprefs/main/spec/0.1/heartprefs.schema.json");
     expect(doc.proof?.type).toBe("EIP191");
     expect(doc.proof?.verificationMethod).toBe(SUBJECT);
     expect(doc.proof?.signature).toBeUndefined();
