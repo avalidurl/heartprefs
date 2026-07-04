@@ -1,0 +1,22 @@
+# w3id.org/heartprefs — permanent identifier for the HeartPrefs standard
+# Namespace: heartprefs  |  Contact: see README.md
+#
+# w3id convention: 302 (Found) so the w3id URI stays the canonical identifier and
+# the redirect target may move without breaking the permalink.
+#
+# TODO(founder): replace <CANONICAL_SCHEMA_HOST> with the immutable host that actually
+# serves the schema (a Cloudflare-hosted immutable asset is preferred; an interim option is
+# a pinned GitHub raw tag, e.g. raw.githubusercontent.com/gokhan-vc/heartprefs/v0.1/spec).
+
+Options +FollowSymLinks
+RewriteEngine On
+
+# Versioned JSON Schema — matches the schema's own "$id":
+#   https://w3id.org/heartprefs/0.1/schema.json
+RewriteRule ^0\.1/schema\.json$ https://<CANONICAL_SCHEMA_HOST>/heartprefs/0.1/heartprefs.schema.json [R=302,L]
+
+# Versioned spec index
+RewriteRule ^0\.1/?$ https://<CANONICAL_SCHEMA_HOST>/heartprefs/0.1/ [R=302,L]
+
+# Namespace root -> the human-readable spec repo
+RewriteRule ^$ https://github.com/gokhan-vc/heartprefs [R=302,L]
