@@ -1,20 +1,3 @@
-HeartPrefs specification, schema, and documentation
-Copyright (c) 2026 Atelier Gökhan / Numetal
-
-This work (the `spec/` directory: vocabulary, JSON Schema, and specification text)
-is licensed under the Creative Commons Attribution 4.0 International License
-(CC-BY-4.0). You may share and adapt it, including for commercial use, provided
-you give appropriate credit to "HeartPrefs (Atelier Gökhan / Numetal)", link to
-this license, and indicate if changes were made.
-
-Future code (sdk/, tools/, validator/, reference servers) is licensed Apache-2.0.
-The name "HeartPrefs" and the conformance mark are not licensed for use to imply
-endorsement; see GOVERNANCE.md.
-
-Full license text follows.
-
-----------------------------------------------------------------------
-
 Attribution 4.0 International
 
 =======================================================================
