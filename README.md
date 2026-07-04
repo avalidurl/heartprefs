@@ -145,6 +145,8 @@ The standard composes onto the [x402](https://x402.org), [AP2](https://a2a-proto
 
 ## License
 
+Copyright (c) 2026 Atelier Gökhan / Numetal.
+
 - **Vocabulary, JSON Schema, and spec text** (`spec/`): **[CC-BY-4.0](./LICENSE)** — you may share, adapt, and build on HeartPrefs, including commercially, provided you give appropriate credit to "HeartPrefs (Atelier Gökhan / Numetal)" and link to the license.
 - **Code** (`sdk/`): **Apache-2.0** (see [`sdk/LICENSE`](./sdk/LICENSE)).
 - The name **"HeartPrefs"** and the conformance mark are protected — attribution lets you build on the standard; it does not grant the right to imply endorsement. See [GOVERNANCE.md](./GOVERNANCE.md).
