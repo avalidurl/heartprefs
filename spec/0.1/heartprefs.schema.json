@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://w3id.org/heartprefs/0.1/schema.json",
+  "$id": "https://raw.githubusercontent.com/gokhan-vc/heartprefs/main/spec/0.1/heartprefs.schema.json",
   "title": "HeartPrefs",
   "description": "An open, portable, signed matching-intent document for agent-mediated matching. v0.1 (DRAFT). The matching vocabulary (self/seek/free) is the only invented surface; identity, attestation, consent and payment are thin envelopes that delegate to existing rails (DID/VC, AP2, x402). The same canonical bytes are intended to ride x402 bodies, A2A Agent-Card extensions, MCP resources, and ERC-8004 service entries.",
   "type": "object",

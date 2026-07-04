@@ -24,7 +24,7 @@ RFC 6838 restricts the **standards tree** (`application/heartprefs+json`) to for
 
 1. **Launch the W3C CG** (free; gives you a standards body → unlocks the standards-tree media type + a neutral governance home).
 2. **Register the IANA media type** (`vnd.` now; the CG can graduate it later).
-3. **File the w3id PR** (permanent schema URL; the schema `$id` already points at `w3id.org/heartprefs/0.1/schema.json`, so this makes that link real).
+3. **File the w3id PR** *(optional)* — a permanent, host-independent schema URL. The schema `$id` now resolves via GitHub raw (`…/main/spec/0.1/heartprefs.schema.json`); registering `w3id.org/heartprefs` lets you switch the `$id` to the permalink later.
 4. **Serve `did.json`** once the issuer signing key is chosen (see `did/README.md`) — needed before the 18+ VC path (GOK-166) goes live.
 
 ## First-party sources (verified 2026-07-04)

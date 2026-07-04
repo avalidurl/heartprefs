@@ -52,4 +52,4 @@ The schema `$id` is version-pathed (`/0.1/`) so later versions can change shape 
 
 ## 10. Media type & schema URL
 - Media type: `application/heartprefs+json` (IANA registration pending; use provisionally).
-- Schema `$id`: `https://w3id.org/heartprefs/0.1/schema.json` (w3id permalink registration pending; until it resolves, fetch the schema from this repository).
+- Schema `$id`: `https://raw.githubusercontent.com/gokhan-vc/heartprefs/main/spec/0.1/heartprefs.schema.json` (resolves from this repo). A host-independent `w3id.org/heartprefs` permalink is prepared under [`standards/w3id/`](../../standards/w3id/); once registered, the `$id` can switch to it.

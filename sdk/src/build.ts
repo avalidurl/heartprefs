@@ -10,7 +10,7 @@ import type {
   UnsignedHeartPrefs,
 } from "./types.js";
 
-const SCHEMA_ID = "https://w3id.org/heartprefs/0.1/schema.json";
+const SCHEMA_ID = "https://raw.githubusercontent.com/gokhan-vc/heartprefs/main/spec/0.1/heartprefs.schema.json";
 const DOC_VERSION = "0.1.0";
 
 export interface BuildDocInput {

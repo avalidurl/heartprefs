@@ -1,5 +1,5 @@
 {
-  "$schema": "https://w3id.org/heartprefs/0.1/schema.json",
+  "$schema": "https://raw.githubusercontent.com/gokhan-vc/heartprefs/main/spec/0.1/heartprefs.schema.json",
   "_note": "ILLUSTRATIVE EXAMPLE ONLY. All values here — including the address in identity.subject / proof.verificationMethod (the all-zero placeholder address) and the id, nonce, and signature — are non-real placeholders. Do NOT reuse them; substitute your own DID, signing key, and signature.",
   "version": "0.1.0",
   "kind": "heartprefs",

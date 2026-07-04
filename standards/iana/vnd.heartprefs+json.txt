@@ -47,7 +47,7 @@ Interoperability considerations:
 Published specification:
    HeartPrefs Specification v0.1 (DRAFT):
    https://github.com/gokhan-vc/heartprefs/blob/main/spec/0.1/SPEC.md
-   JSON Schema: https://w3id.org/heartprefs/0.1/schema.json
+   JSON Schema: https://raw.githubusercontent.com/gokhan-vc/heartprefs/main/spec/0.1/heartprefs.schema.json
 
 Applications that use this media type:
    Agent-mediated matching / dating venues and the agents that act for their
