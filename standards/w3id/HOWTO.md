@@ -16,7 +16,7 @@ Decide the **canonical immutable host** that will actually serve the schema, and
 4. Commit with a **descriptive** message naming the project (w3id rejects generic default messages), e.g. `Add heartprefs namespace (HeartPrefs matching-intent standard)`.
 5. Open the PR against `perma-id/w3id.org`. Maintainers review and merge.
 
-**Alternative (no PR):** email `public-perma-id@w3.org` with the desired URL (`w3id.org/heartprefs`), the redirect target, and the preferred HTTP code (302).
+**Alternative (no PR):** email `contact@gokhan.vc` with the desired URL (`w3id.org/heartprefs`), the redirect target, and the preferred HTTP code (302).
 
 ## After merge
 

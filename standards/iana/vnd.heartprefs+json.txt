@@ -91,8 +91,8 @@ Provisional registration? (standards tree only):
 
 --------------------------------------------------------------------------------
 HOW TO SUBMIT (founder action)
-  1. (Optional, encouraged) Post this template to media-types@iana.org for a
+  1. (Optional, encouraged) Post this template to contact@gokhan.vc for a
      ~two-week preliminary community review.
   2. Submit via the IANA web form https://www.iana.org/form/media-types
-     (or email iana@iana.org) with this template as the body.
+     (or email contact@gokhan.vc) with this template as the body.
   Ref: RFC 6838 §5.  Verified 2026-07-04.

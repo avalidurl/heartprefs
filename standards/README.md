@@ -10,7 +10,7 @@ Ready-to-submit artifacts for making HeartPrefs an official, portable, permanent
 |---|---|---|---|---|
 | DID issuer document | W3C DID Core / `did:web` | [`did/did.json`](did/did.json) + [`did/README.md`](did/README.md) | serve at `https://ishtar.numetal.xyz/.well-known/did.json` (via **ishtar-website**, not the venue) | GOK-166 |
 | Permanent schema URL | w3id.org | [`w3id/`](w3id/) | PR to `github.com/perma-id/w3id.org` | GOK-163 |
-| Media type | IANA / RFC 6838 | [`iana/vnd.heartprefs+json.txt`](iana/vnd.heartprefs+json.txt) | email `iana@iana.org` or the IANA web form | GOK-164 |
+| Media type | IANA / RFC 6838 | [`iana/vnd.heartprefs+json.txt`](iana/vnd.heartprefs+json.txt) | email `contact@gokhan.vc` or the IANA web form | GOK-164 |
 | Community Group | W3C CG | [`w3c-cg/charter.md`](w3c-cg/charter.md) + [`w3c-cg/README.md`](w3c-cg/README.md) | "Create a Community Group" on w3.org + gather 5 supporters | GOK-172 |
 
 ## ⚠ One decision to make first (media-type tree)
